@@ -39,8 +39,8 @@ header {
 }
 
 .img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 5px 7px 8px #ccc;
 }
@@ -48,7 +48,9 @@ header {
 #about {
     display: flex;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 100px;
+    width: max-content;
+    height: 40vh;
 }
 
 .btn {
@@ -92,6 +94,7 @@ h2 {
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+
 }
 
 .skill {
@@ -103,6 +106,7 @@ h2 {
   color: #333;
   transition: transform 0.3s ease, background-color 0.3s ease;
   border: 2px solid #e0e0e0;
+  width: 3000px;
 }
 
 .skill:hover {
@@ -112,13 +116,15 @@ h2 {
 }
 #projects{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 0;
+  height: 30vh;
 }
 
 .projectb1  {
-  width: 100px;
-  height: 30px;
+  width: 1000px;
+  height:50px;
   border-radius: 8px;
   box-shadow: 3px 4px 2px #ccc;
   border-color: transparent;
@@ -130,8 +136,8 @@ a{
 }
 
 .projectb2  {
-  width: 100px;
-  height: 30px;
+  width: 1000px;
+  height: 50px;
   border-radius: 8px;
   box-shadow: 3px 4px 2px #ccc;
   border-color: transparent;
@@ -143,8 +149,8 @@ a{
 }
 
 .projectb3  {
-  width: 100px;
-  height: 30px;
+  width: 1000px;
+  height: 50px;
   border-radius: 8px;
   box-shadow: 3px 4px 2px #ccc;
   border-color: transparent;
@@ -157,6 +163,7 @@ a{
 #contact{
   display: flex;
   flex-wrap: wrap;
+  height: 40vh;
 }
 input{
   padding: 10px;
